@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 94, 3);
+    text-align: center;
+
+
+}
+
+img {
+    width: 400px;
+    margin-top: 100px;
+
+}
+
+
+section {
+    overflow: auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+
+.box {
+    /* background-color: rgb(245, 102, 7); */
+    float: center;
+    margin:  auto;
+    /* border: 2px solid rgb(245, 102, 7); */
+    width: 300px;
+    height: 400px;
+    
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1em;
+}
+
+.instagram-btn {
+    background-color: white;;
+    border: none;
+    border-radius: 10px; 
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer;
+    position: relative;
+    animation: pulse 1s infinite ease-in-out 2s; 
+    display: inline-block;
+    margin-top: 20px;
+   
+}
+
+.instagram-icon {
+    background-image: url('../icon-insta.png'); 
+    background-size: cover;
+    width: 60px; 
+    height: 60px; 
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* Efeito de pulso */
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    8% {
+      transform: scale(1.01);
+    }
+    16% {
+      transform: scale(1.02);
+    }
+    24% {
+      transform: scale(1.03);
+    }
+    32% {
+      transform: scale(1.04);
+    }
+    40% {
+      transform: scale(1.05);
+    }
+    50% {
+      transform: scale(1.06);
+    }
+    58% {
+      transform: scale(1.05);
+    }
+    66% {
+      transform: scale(1.04);
+    }
+    74% {
+      transform: scale(1.03);
+    }
+    82% {
+      transform: scale(1.02);
+    }
+    90% {
+      transform: scale(1.01);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
